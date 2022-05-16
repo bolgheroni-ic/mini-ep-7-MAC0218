@@ -6,7 +6,7 @@ import domain.BoletimFechado
 
 class AnalisadorDeAprovacao {
     
-    val criterio: CriterioDeAprovacao
+    private val criterio: CriterioDeAprovacao
 
     fun defineCriterio(criterio: CriterioDeAprovacao): Void {
         this.criterio = criterio
